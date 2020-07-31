@@ -329,7 +329,7 @@ class Home extends Component {
                             this.state.inputDes )
 
                     }}
-                    disabled = {(this.state.inputTitle === "" && this.state.inputDes === "") ? true : false }
+                    disabled = {(this.state.inputTitle === "" || this.state.inputDes === "") ? true : false }
                     style={{justifyContent: 'center'}} >
                          <Text style = {{
                            fontSize : moderateScale(14),
